@@ -1,7 +1,7 @@
-function SubirPersianas(){
+function ActivarPersianas(){
     console.log("## SUBIR PERSIANAS ##")
 }
 
 export {
-    SubirPersianas
+    ActivarPersianas
 }
