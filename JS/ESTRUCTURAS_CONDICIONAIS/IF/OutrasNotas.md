@@ -82,3 +82,50 @@ if (tenPermiso && tenChave) {
 Podes pegar este bloque no teu ficheiro `Exercicios_IF.md` para ter unha referencia rápida sobre estes operadores.
 
 ```
+
+
+
+¡Absolutamente\! O operador **`||` (OR Lóxico)** é tan crucial como o `&&` e o `!`. Permite que o teu código actúe se se cumpre *polo menos* unha de varias condicións.
+
+A continuación, explico o significado do operador **`||`** e xero o contido para que o incorpores ao teu arquivo `.md`.
+
+-----
+
+## Explicación do Operador `||` (OR Lóxico)
+### Operador `||` (OR Lógico / Disyunción)
+
+
+O operador `||` (OR Lóxico), que significa "ou", úsase para **combinar dúas ou máis condicións** cando só se require que **unha delas** sexa verdadeira.
+
+  * **Significado:** O resultado da condición con `||` será **verdadeiro** (`true`) se **ALGUNHA** das condicións conectadas é verdadeira. Só é falso se *todas* as condicións son falsas.
+  * **Exemplo:** `(Tes coche) || (Tes billete de tren)`. Podes viaxar se tes **unha cousa ou a outra (ou as dúas)**.
+
+-----
+
+## 📝 Contido para o Arquivo `.md` (en Galego)
+
+Aquí tes o bloque de texto en formato Markdown para engadir á sección de "Operadores Lóxicos" do teu ficheiro, xunto co `&&` e o `!`.
+### Operador || (OU Lóxico / OR)
+
+
+
+O operador `||` (OU Lóxico) úsase para establecer condicións onde basta que se cumpra unha única opción.
+
+**Significado:** Permite que o bloque de código do `if` se execute se **polo menos unha** das condicións conectadas é verdadeira. É a condición máis "permisiva".
+
+#### Exemplo:
+
+```javascript
+let éFinDeSemana = false;
+let estáDeVacacións = true;
+
+// O usuario pode descansar se é Fin de Semana OU se está de Vacacións
+if (éFinDeSemana || estáDeVacacións) {
+    console.log("Tempo de descansar e relaxar!");
+}
+````
+
+-----
+
+Agora tes as explicacións completas dos tres operadores lóxicos fundamentais: **`&&`**, **`!`**, e **`||`**.
+
