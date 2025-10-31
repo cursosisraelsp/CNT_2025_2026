@@ -1,6 +1,6 @@
 function ActivarMotor(){
     
-    console.log("## ACTIVAMOS O VENTILADOR ##")
+    console.log("## ACTIVAMOS O MOTOR ##")
 
 }
 
