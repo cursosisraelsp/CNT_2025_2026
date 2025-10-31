@@ -1,10 +1,10 @@
 import { ActivarMotor } from "./ActivarMotor.js";
 import { ActivarPersianas } from "./ActivarPersianas.js";
-import { condicionActivacionDoVentilador } from "./CONDICIONS.js";
+import { condicionActivarSistema } from "./CONDICIONS.js";
 
 
 function Sistema(){
-    if(condicionActivacionDoVentilador){
+    if(condicionActivarSistema){
         ActivarMotor()
     }else{
         ActivarPersianas()
