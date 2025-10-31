@@ -28,7 +28,7 @@
 
 | \# | Título do Exercicio | Instrucións en Galego | Concepto a Practicar |
 | :---: | :--- | :--- | :--- |
-| **6** | **Día de Lecer** | Declara unha constante `const hoxe = "luns"`. Escribe un **`if`** que comprobe se `hoxe` é **igual** a `"sábado"` **OU** **igual** a `"domingo"`. Se é calquera dos dous, imprime `"Fin de semana!"`. (Usa o operador lóxico `||`). | `if` con **`||`** (OU lóxico). |
+| **6** | **Día de Lecer** | Declara unha constante `const hoxe = "luns"`. Escribe un **`if`** que comprobe se `hoxe` é **igual** a `"sábado"` **OR** **igual** a `"domingo"`. Se é calquera dos dous, imprime `"Fin de semana!"`. (Usa o operador lóxico  ). | `if` con **`\|\|`** (OR lóxico). |
 | **7** | **Dobre Verificación** | Declara `let saldo = 200` e `let prezoProduto = 150`. Escribe un **`if`** que verifique dúas cousas: se `saldo` é maior que $100$ **E** se `saldo` é maior que `prezoProduto`. Se ambas son certas, imprime `"Podes mercar."`. (Usa o operador lóxico `&&`). | `if` con **`&&`** (E lóxico). |
 | **8** | **Negación de Dispoñibilidade** | Declara `let produtoDispoñible = false`. Escribe un **`if`** que verifique se **NON** está dispoñible. Se non o está, imprime `"Produto Esgotado."`. (Usa o operador de negación `!` - NOT). | `if` e Operador **`!`** (Negación). |
 | **9** | **Asignar Desconto** | Declara `let éClientePremium = true`. Declara `let prezoBase = 100`. Dentro dun **`if`** que comprobe se `éClientePremium` é verdadeiro, **reasigna** `prezoBase` a $80$ (aplicando un desconto). Despois do `if`, imprime o valor final de `prezoBase`. | **`let`** e Reasignación Condicional. |
